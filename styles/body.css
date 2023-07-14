@@ -5,6 +5,7 @@
 }
 .body-sec {
     background: #FFF;
+    height: 100vh;
 }
 /* nav{
     display: flex;
@@ -13,13 +14,13 @@
 .page-title{
     color: #333;
     font-size: 21px;
-    padding-left: 210px;
+    padding-left: 280px;
     padding-top: 44px;
 
 }
 
 .main-img{
-    width: 550px;
+    width: 400px;
 }
 .banner-container{
     display: flex;
@@ -27,6 +28,7 @@
     align-items: center;
     gap: 120px;
     margin-top: 120px;
+    margin-bottom: 155px;
 
 }
 .ban-tit{
@@ -42,7 +44,7 @@
     font-weight: 100;
     font-size: 20px;
     letter-spacing: -0.84px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 .ban-btn{
     background-color: #333;
@@ -53,4 +55,17 @@
 }
 .ban-btn:hover{
     background-color: #2b254e;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-note{
+    color:  #bdbdbdac;
+    font-size: 13px;
+}
+
+.username{
+    text-decoration: underline;
 }
