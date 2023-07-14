@@ -123,3 +123,54 @@ footer {
     }
 
 }
+
+
+/* For the medium device  */
+@media screen and (min-width: 576.01px) and (max-width: 992px){
+    .page-title {
+        color: #333;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 100px;
+        padding-top: 25px;
+
+    }
+    .ban-desc{
+        width: 80%;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        justify-content: center;
+        margin-top:35px;
+        margin-bottom: 60px;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .ban-img {
+        text-align: center;
+
+    }
+
+    .main-img {
+        width: 60%;
+    }
+
+    .ban-tit {
+        font-size: 45px;
+        font-family: 'Space Mono', monospace;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .ban-txt{
+        padding-left: 35px; ;
+    }
+
+    .footer-note {
+        color: #bdbdbdac;
+        font-size: 10px;
+        padding-bottom: 20px;
+    }
+
+}
