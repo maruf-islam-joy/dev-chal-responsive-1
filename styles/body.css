@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+}
+.body-sec {
+    background: #FFF;
+}
+/* nav{
+    display: flex;
+    justify-content: space-between;
+} */
+.page-title{
+    color: #333;
+    font-size: 21px;
+    padding-left: 210px;
+    padding-top: 44px;
+
+}
+
+.main-img{
+    width: 550px;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin-top: 120px;
+
+}
+.ban-tit{
+    font-size: 55px;
+    font-family: 'Space Mono', monospace;
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+.ban-desc{
+    width: 300px;
+    color: #4f4f4fc6;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: -0.84px;
+    margin-bottom: 25px;
+}
+.ban-btn{
+    background-color: #333;
+    color: #FFF;
+    padding: 15px 25px;
+    font-size: 13px;
+    width: 180px;
+}
+.ban-btn:hover{
+    background-color: #2b254e;
+}
