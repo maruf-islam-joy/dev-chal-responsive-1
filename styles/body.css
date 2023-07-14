@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Inconsolata', monospace;
 }
+
 .body-sec {
     background: #FFF;
     height: 100vh;
 }
+
 /* nav{
     display: flex;
     justify-content: space-between;
 } */
-.page-title{
+.page-title {
     color: #333;
     font-size: 21px;
     padding-left: 280px;
@@ -19,10 +21,11 @@
 
 }
 
-.main-img{
+.main-img {
     width: 400px;
 }
-.banner-container{
+
+.banner-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,14 +34,15 @@
     margin-bottom: 155px;
 
 }
-.ban-tit{
+
+.ban-tit {
     font-size: 55px;
     font-family: 'Space Mono', monospace;
     width: 500px;
     margin-bottom: 25px;
 }
 
-.ban-desc{
+.ban-desc {
     width: 300px;
     color: #4f4f4fc6;
     font-weight: 100;
@@ -46,26 +50,74 @@
     letter-spacing: -0.84px;
     margin-bottom: 35px;
 }
-.ban-btn{
+
+.ban-btn {
     background-color: #333;
     color: #FFF;
     padding: 15px 25px;
     font-size: 13px;
     width: 180px;
 }
-.ban-btn:hover{
+
+.ban-btn:hover {
     background-color: #2b254e;
 }
 
-footer{
+footer {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-.footer-note{
-    color:  #bdbdbdac;
+
+.footer-note {
+    color: #bdbdbdac;
     font-size: 13px;
 }
 
-.username{
+.username {
     text-decoration: underline;
+}
+
+
+/* For the smaller device  */
+@media screen and (max-width: 576px) {
+    .page-title {
+        color: #333;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 35px;
+        padding-top: 25px;
+
+    }
+
+    .banner-container {
+        flex-direction: column;
+        margin-top:35px;
+        margin-bottom: 80px;
+        gap: 20px;
+    }
+
+    .ban-img {
+        text-align: center;
+
+    }
+
+    .main-img {
+        width: 80%;
+    }
+
+    .ban-tit {
+        font-size: 45px;
+        font-family: 'Space Mono', monospace;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .ban-txt{
+        padding-left: 35px; ;
+    }
+
+    .footer-note {
+        color: #bdbdbdac;
+        font-size: 10px;
+    }
+
 }
