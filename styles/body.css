@@ -92,7 +92,7 @@ footer {
     .banner-container {
         flex-direction: column;
         margin-top:35px;
-        margin-bottom: 80px;
+        margin-bottom: 60px;
         gap: 20px;
         width: 100%;
     }
@@ -119,6 +119,7 @@ footer {
     .footer-note {
         color: #bdbdbdac;
         font-size: 10px;
+        padding-bottom: 20px;
     }
 
 }
